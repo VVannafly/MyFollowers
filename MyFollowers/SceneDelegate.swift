@@ -34,6 +34,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.makeKeyAndVisible()
 
+        configureNavigationBar()
     }
     
     
@@ -66,7 +67,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     }
     
-    
+    func configureNavigationBar() {
+        UINavigationBar.appearance().tintColor = .systemGreen
+    }
     func sceneDidDisconnect(_ scene: UIScene) {
     
     }
