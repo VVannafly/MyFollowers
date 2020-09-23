@@ -9,6 +9,12 @@ xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 
+# OS X temporary files that should never be committed
+.DS_Store
+*.swp
+*.lock
+profile
+
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
 build/
 DerivedData/
