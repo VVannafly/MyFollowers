@@ -6,11 +6,12 @@
 //  Copyright © 2020 Dmitriy Chernov. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class NetworkManager {
     static let shared = NetworkManager()                //Creating for dissmissing a delegate in FollowerList
-    let baseURL = "https://api.github.com/users/"
+    private let baseURL = "https://api.github.com/users/"
+    let cache = NSCache<NSString, UIImage>()
     
     private init() {}
     
