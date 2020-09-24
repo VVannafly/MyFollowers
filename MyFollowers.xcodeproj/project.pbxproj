@@ -23,6 +23,8 @@
 		0A6A059A2510012A00C9F68D /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A05992510012A00C9F68D /* GFTextField.swift */; };
 		0A6A05A22512B3B700C9F68D /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A05A12512B3B700C9F68D /* FollowerListVC.swift */; };
 		0A8FA41F251CA95A0003D7EB /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FA41E251CA95A0003D7EB /* GFUserInfoHeaderVC.swift */; };
+		0A8FA422251CAA0D0003D7EB /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FA421251CAA0D0003D7EB /* GFSecondaryTitleLabel.swift */; };
+		0A8FA425251CCCEC0003D7EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FA424251CCCEC0003D7EB /* Constants.swift */; };
 		0AA6782F251932FE00A0DA7A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6782E251932FE00A0DA7A /* NetworkManager.swift */; };
 		0AA6783425193ECC00A0DA7A /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6783325193ECC00A0DA7A /* ErrorMessage.swift */; };
 		0AA67839251B566400A0DA7A /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA67838251B566400A0DA7A /* FollowerCell.swift */; };
@@ -51,6 +53,8 @@
 		0A6A05992510012A00C9F68D /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		0A6A05A12512B3B700C9F68D /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		0A8FA41E251CA95A0003D7EB /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		0A8FA421251CAA0D0003D7EB /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		0A8FA424251CCCEC0003D7EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0AA6782E251932FE00A0DA7A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0AA6783325193ECC00A0DA7A /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		0AA67838251B566400A0DA7A /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
@@ -168,6 +172,7 @@
 			children = (
 				0AA6783325193ECC00A0DA7A /* ErrorMessage.swift */,
 				0AA6783E251BADD600A0DA7A /* UIHelper.swift */,
+				0A8FA424251CCCEC0003D7EB /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			children = (
 				0A1FAE1225176B2600A5217A /* GFTitleLabel.swift */,
 				0A1FAE1525176EB000A5217A /* GFBodyLabel.swift */,
+				0A8FA421251CAA0D0003D7EB /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 				0A1FAE1D25179B9700A5217A /* UIViewController + Ext.swift in Sources */,
 				0A6A0598250FFE2D00C9F68D /* GFButton.swift in Sources */,
 				0AA6783F251BADD600A0DA7A /* UIHelper.swift in Sources */,
+				0A8FA425251CCCEC0003D7EB /* Constants.swift in Sources */,
 				0AA6783C251B58EC00A0DA7A /* GFAvatarImageView.swift in Sources */,
 				0A6A0594250FE9F800C9F68D /* FavoritesListVC.swift in Sources */,
 				0A1FAE1925178DE800A5217A /* GFAlertVC.swift in Sources */,
@@ -315,6 +322,7 @@
 				0A1FAE1625176EB000A5217A /* GFBodyLabel.swift in Sources */,
 				0A1FAE2A25191B2C00A5217A /* Follower.swift in Sources */,
 				0A1FAE1325176B2600A5217A /* GFTitleLabel.swift in Sources */,
+				0A8FA422251CAA0D0003D7EB /* GFSecondaryTitleLabel.swift in Sources */,
 				0AA6784C251BDD1E00A0DA7A /* GFEmptyStateView.swift in Sources */,
 				0AA6782F251932FE00A0DA7A /* NetworkManager.swift in Sources */,
 				0A6A05A22512B3B700C9F68D /* FollowerListVC.swift in Sources */,
