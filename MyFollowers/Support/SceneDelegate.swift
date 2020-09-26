@@ -28,7 +28,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //Create a view hierarchy programmatically
         
         //Set the root view controller of the window with your view controller
-        window?.rootViewController = createTabbar()
+        window?.rootViewController = GFTabBarController()
         
         //Set the window and call makeKeyAndVisible
         window?.windowScene = windowScene
@@ -38,34 +38,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     
-    func createSearchNC() -> UINavigationController {
-        let searchVC = SearchVC()
-        searchVC.title = "Search"
-        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
-        
-        //embeding VC into NC
-        return UINavigationController(rootViewController: searchVC)
-    }
-    
-    
-    func createFavoritesNC() -> UINavigationController {
-        let favoritesListVC = FavoritesListVC()
-        favoritesListVC.title = "Favorites"
-        favoritesListVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
-        
-        //embeding VC into NC
-        return UINavigationController(rootViewController: favoritesListVC)
-    }
-    
-    
-    func createTabbar() -> UITabBarController {
-        let tabbar = UITabBarController()
-        UITabBar.appearance().tintColor = .systemGreen
-        tabbar.viewControllers = [createSearchNC(), createFavoritesNC()]     //Tabbar with an array of NC
-        
-        return tabbar
 
-    }
     
     func configureNavigationBar() {
         UINavigationBar.appearance().tintColor = .systemGreen

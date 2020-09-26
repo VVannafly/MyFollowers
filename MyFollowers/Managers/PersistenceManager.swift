@@ -73,7 +73,5 @@ enum PersistenceManager {
         } catch {
             return .unableToFavorite
         }
-        
-        return nil
     }
 }
